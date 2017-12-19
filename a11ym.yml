@@ -1,9 +1,23 @@
 # List of URLs to test.
 urls:
-  - https://act.staging.benchprep.com/app/act-online-prep-tm
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#main-dashboard
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#study-plan/structured
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#quizzes
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#live-classes/upcoming
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#game-center
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#discussions
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#reports/practice
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#read/table-of-contents
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#flash-cards/all/316671
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#quizzes
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#exams
+  - https://act.staging.benchprep.com/app/act-online-prep-tm#essays
 
 # Maximum number of URLs to compute.
 maximumUrls: 128
+
+# Exclude results by comma-separated WCAG codes.
+excludeByCodes: H91
 
 # Report format: `cli`, `csv`, `html`, `json`, or `markdown`.
 report: html
